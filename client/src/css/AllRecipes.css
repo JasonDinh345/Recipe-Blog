@@ -1,0 +1,19 @@
+.allRecipesBox{
+    display: flex;
+    border:2px solid black;
+    width:80%;
+    height:100%;
+}
+.addRecipe{
+    display:flex;
+    width:200px;
+    border:2px solid black;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin: 20px;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgb(196, 196, 196);
+}

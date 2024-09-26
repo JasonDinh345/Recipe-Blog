@@ -1,0 +1,18 @@
+.recipeBox{
+    display:flex;
+    width:200px;
+    border:2px solid black;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin: 20px;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img{
+    height:75%;
+    width: 100%;
+    background-color: rgb(150, 165, 255);
+}

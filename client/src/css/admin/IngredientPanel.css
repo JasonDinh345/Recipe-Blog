@@ -1,0 +1,144 @@
+
+.ingredientsPanel{
+    position: fixed;
+    background-color: white;
+    border: 2px solid black;
+    width:80vw;
+    height:70vh;
+
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    box-shadow: 10px 5px 5px black;
+    border-radius: 20px;
+    overflow: hidden;
+    padding:2%;
+    padding-top: 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+}
+
+.ingredientsPanel-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.ingredientPanelMain{
+    display:flex;
+    flex-direction: row;
+    height: 80%;
+    width:100%;
+    justify-content: space-between;
+    
+
+}
+/* Box that contains all the ingredients */
+.ingredients{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: rgb(184, 183, 183);
+    width:100%;
+    height: 100%;
+    padding:10px;
+    
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  
+    align-items: start;
+  
+    
+    align-content: flex-start;
+    box-sizing: border-box;
+}
+.ingredients::-webkit-scrollbar {
+    display: none;
+  }
+ 
+.ingredientOptionContainer{
+    
+    border-radius: 40px;
+   
+    overflow: hidden;
+    
+    border-left:2px solid rgb(90, 90, 90);
+    border-bottom:2px solid rgb(90, 90, 90);
+    height: fit-content;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.ingredientOptionContainer:hover{
+    border-left:2px solid rgb(56, 77, 122);
+    border-bottom:2px solid rgb(56, 77, 122);
+    
+    
+    box-shadow: 10px 5px 5px rgb(129, 129, 129);
+}
+/* Selected Ingredients Container Within IngredientPanel */
+.selectedIngredients{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    width:100%;
+    height:100%;
+    padding:10px;
+    background-color: rgb(184, 183, 183);
+    border: 2px solid gray;
+    border-radius: 20px;
+
+   
+
+    
+    transform: translateZ(0); /* Force GPU acceleration */
+    will-change: contents;
+
+    -webkit-font-smoothing: antialiased; /* For smoother text rendering */
+    -moz-osx-font-smoothing: grayscale; /* For MacOS */
+    image-rendering: auto; /* Ensures images are rendered correctly */
+
+    filter: none; /* Ensure no filter effects are applied */
+}
+.overflowAuto{
+   
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.overflowAuto::-webkit-scrollbar {
+    display: none;
+  }
+  /* Ingredients within the SelectedIngredients Container */
+.ingredientSelectBox{
+    display: flex;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 20px;
+    width:100%;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+.ingredientSelectBoxContainer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.ingredientSelectBoxContainer input{
+    width:10%;
+}

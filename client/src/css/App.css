@@ -1,0 +1,42 @@
+:root{
+    --default-box-shadow: 10px 5px #000000;
+}
+html, body {
+    height: 100%; /* Ensures that the whole document has 100% height */
+    margin: 0;    /* Removes any default margin */
+    padding: 0;   /* Removes any default padding */
+}
+.wholePage{
+    display:flex;
+    
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+}
+.exitOut{
+    position:absolute;
+    right:0;
+    margin:20px;
+}
+.darkBG{
+    position: fixed;
+    top:50%;
+    left:50%;
+    width:100vw;
+    height:100vh;
+    transform: translate(-50%,-50%);
+    background-color: rgba(59, 59, 59, 0.644);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexContainerCenter{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+

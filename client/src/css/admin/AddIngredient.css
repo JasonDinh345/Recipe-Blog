@@ -1,0 +1,45 @@
+.addIngredientPanel{
+    position: fixed;
+    width:50vh;
+    height:fit-content;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 20px;
+    gap:20px;
+}
+
+.addIngredientMain{
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+.addIngredientInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.ingredientExamplePanel{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    overflow: hidden;
+
+}
+.submitBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px
+    
+}

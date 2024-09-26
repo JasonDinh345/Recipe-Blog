@@ -1,0 +1,68 @@
+
+.adminRecipeBox{
+    width:70%;
+    min-height:80vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin: 10px;
+}
+/* Header */
+.recipeHeader{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:fit-content;
+    padding: 15px;
+
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: var(--default-box-shadow);
+    background-color: rgb(223, 245, 253);
+}
+.recipeMisc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.recipeMiscIfo input[type=number]{
+    width:12%;
+    
+}
+.recipeHeader-isPublic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+/* Main */
+.recipeInfo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100%;
+    height: fit-content;
+    border: 2px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: var(--default-box-shadow);
+    
+}
+/* Ingredients */
+.recipeIngredients{
+    display: flex;
+    flex-direction: column;
+    width:25%
+}
+/* Directions */
+.recipeDirections{
+    display: flex;
+    flex-direction: column;
+    width:75%;
+    height: fit-content;
+    align-items: start;
+}
