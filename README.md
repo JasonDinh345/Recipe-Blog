@@ -1,3 +1,5 @@
+<h1>Inspired by Sarah Banh's Blog</h1>
+https://www.provecho.bio/@groovyfoodiess
 <h1>Learned</h1>
 <ul>
   <li>Various Native React Functions</li>
