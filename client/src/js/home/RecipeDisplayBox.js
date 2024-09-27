@@ -7,7 +7,7 @@ function RecipeDisplayBox({recipe, user}){
         navigate("/recipe/admin/"+recipe.name);
     }
     const handleSelect = ()=>{
-
+        navigate("/recipe/"+recipe.name);
     }
     return(
         <>

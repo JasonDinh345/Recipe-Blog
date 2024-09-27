@@ -1,0 +1,31 @@
+.recipeContiner{
+    width:70%;
+    min-height:80vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin: 10px;
+}
+.recipeMisc{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.recipeStep{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    flex-flow: column wrap;
+}
+.recipeStep p{
+    font-size: large;
+}
+.recipeStep-ingredients{
+    display:flex;
+    flex-flow: column wrap;
+    flex-basis: 100%;
+    height: fit-content;
+}

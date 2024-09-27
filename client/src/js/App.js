@@ -28,8 +28,8 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
-                <Route path="/recipe/:id" element={<Recipe />} />
                 <Route path="/recipe/admin/:name" element={<AdminRecipe />} />
+                <Route path="/recipe/:name" element={<Recipe />} />
             </Routes>
         </Router>
         

@@ -22,7 +22,7 @@
     box-shadow: var(--default-box-shadow);
     background-color: rgb(223, 245, 253);
 }
-.recipeMisc{
+.adminRecipeMisc{
     display: flex;
     justify-content: space-between;
     align-items: center;

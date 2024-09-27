@@ -13,7 +13,7 @@ export default function RecipeHeader({ handleChange, isPublic, cookTime, prepTim
             {recipe =>(
                 <div className='recipeHeader'>
                 <h1 style={{width:"50%"}}>{recipe.name}</h1>
-                <div className='recipeMisc'>
+                <div className='adminRecipeMisc'>
                     <div className='recipeMiscIfo'>
                         <h2>Prep Time: 
                            <NumberInput initalValue={prepTime} type={"prepTime"}handleChange={handleChange}/>min

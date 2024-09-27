@@ -28,9 +28,7 @@ function AllRecipes(){
       
     return(
         <>
-        <UserContext.Consumer>
-        {user=>(
-         <>
+        
                 {isLoading ? (<img src="src/img/loading.gif" alt=""></img>) : (
                 <>
                 <div className="allRecipesBox">
@@ -43,10 +41,7 @@ function AllRecipes(){
                 </div>
                 </>
                 )}
-            </>
-        )}
-        
-        </UserContext.Consumer>
+          
         </>
     )
 }

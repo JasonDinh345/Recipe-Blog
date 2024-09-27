@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import  { useEffect, useState, useReducer, createContext  } from 'react';
+import  { useEffect, useState, useReducer, createContext, useContext  } from 'react';
 import axios from 'axios'
 import NavBar from '../../NavBar';
 
@@ -8,6 +8,7 @@ import "../../../css/admin/AdminRecipe.css"
 import RecipeHeader from './RecipeHeader';
 import Directions from './Directions';
 import RecipeIngredients from './RecipeIngredients';
+import { UserContext } from '../../App';
 
 
 const ACTION_STEPS ={
@@ -19,9 +20,11 @@ const ACTION_STEPS ={
     
 }
 export const RecipeContext = createContext();
-function AdminRecipe({user}){
+function AdminRecipe(){
+    const user = useContext(UserContext)
     const [isLoading, setIsLoading] = useState(true)
     const { name } = useParams(); 
+    console.log(name)
     const [recipe, setRecipe] = useState({})
     const [prepTime, setPrepTime] = useState(0)
     const [cookTime, setCookTime] = useState(0)
