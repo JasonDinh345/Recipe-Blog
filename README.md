@@ -11,5 +11,5 @@ https://www.provecho.bio/@groovyfoodiess
     </ul>
   <li>User Login with Hashed Passwords</li>
   <li>Google Drive API to Store Images</li>
-  <l1>More Efficient Folder Structure</l1>
+  <li>More Efficient Folder Structure</l1>
 </ul>
