@@ -23,3 +23,15 @@ The purpose of this project was to strengthen my previous knowledge and practice
   <li>Google Drive API to Store Images</li>
   <li>More Efficient Folder Structure</l1>
 </ul>
+<h1>Future Implementations</h1>
+  <ul>
+      <li>User Reviews and Comments</li>
+      <li>Recipe Searchbar</li>
+      <li>Needed Tool or Appliances for Recipes</li>
+      <li>Changing of Serving Size</li>
+  </ul>
+<h1>Known Issues</h1>
+  <ul>
+      <li>When creating a new ingredient, the image comes up as null, despite refrencing 
+        to the correct Google Drive URL. But after sometime, it correctly displays</li>
+  </ul>
