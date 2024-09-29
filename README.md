@@ -2,7 +2,7 @@
 https://www.provecho.bio/@groovyfoodiess <br/>
 <br/>
 The purpose of this project was to strengthen my previous knowledge and practices with React, enhance the performance of the website with different React hooks, and to learn how to set up user authentication with session
-<h2>User Experience <h2/>
+<h2>User Experience </h2>
   <h3>Login/Account Creation<h3/>
   <h3>Viewing the Recipe</h3>
 
