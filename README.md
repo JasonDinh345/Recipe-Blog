@@ -30,6 +30,7 @@ The purpose of this project was to strengthen my previous knowledge and practice
       <li>Recipe Searchbar</li>
       <li>Needed Tool or Appliances for Recipes</li>
       <li>Changing of Serving Size</li>
+      <li>Cleaner UI</li>
       <li>Using useReducer instead of multiple states componets</li>
   </ul>
 <h1>Known Issues</h1>
