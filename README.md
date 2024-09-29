@@ -7,9 +7,8 @@ The purpose of this project was to strengthen my previous knowledge and practice
   <h3>Viewing the Recipe</h3>
 
 <h2>Admin Expirence<h3/>
-  <h3>Adding a New Recipe</h3>
   <h3>Editing Recipes<h3/>
-  <h3>Unlisting and Publishing Recipes<h3/> 
+  
 <h1>Learned</h1>
 <ul>
   <li>Various Native React Hooks</li>
@@ -32,6 +31,7 @@ The purpose of this project was to strengthen my previous knowledge and practice
       <li>Changing of Serving Size</li>
       <li>Cleaner UI</li>
       <li>Using useReducer instead of multiple states componets</li>
+      <li>MORE RECIPES</li>
   </ul>
 <h1>Known Issues</h1>
   <ul>
