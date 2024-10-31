@@ -1,0 +1,16 @@
+{
+  "name": "recipe-blog",
+  "version": "1.0.0",
+  "description": "<h1>Inspired by Sarah Banh's Blog</h1>\r https://www.provecho.bio/@groovyfoodiess <br/>\r <br/>\r The purpose of this project was to strengthen my previous knowledge and practices with React, enhance the performance of the website with different React hooks, and to learn how to set up user authentication with session\r <h2>User Experience </h2>\r <<<<<<< HEAD\r   <h3>Login/Account Creation</h3>\r     <img src=\"images/login.gif\">\r   <h3>Viewing the Recipe</h3>\r     <img src=\"images/view_recipe.gif\">\r <h2>Admin Expirence</h3>\r   <h3>Editing Recipes</h3>\r       <img src=\"images/edit_recipe.gif\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "recipe-blog": "file:"
+  }
+}
