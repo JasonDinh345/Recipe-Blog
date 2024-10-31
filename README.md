@@ -3,7 +3,7 @@ https://www.provecho.bio/@groovyfoodiess <br/>
 <br/>
 The purpose of this project was to strengthen my previous knowledge and practices with React, enhance the performance of the website with different React hooks, and to learn how to set up user authentication with session
 <h2>User Experience </h2>
-<<<<<<< HEAD
+
   <h3>Login/Account Creation</h3>
     <img src="images/login.gif">
   <h3>Viewing the Recipe</h3>
@@ -35,13 +35,11 @@ The purpose of this project was to strengthen my previous knowledge and practice
       <li>Cleaner UI</li>
       <li>Using useReducer instead of multiple states componets</li>
       <li>MORE RECIPES</li>
+      <li>Transparent Backgrounds for images</li>
   </ul>
 <h1>Known Issues</h1>
   <ul>
       <li>When creating a new ingredient, the image comes up as null, despite refrencing 
         to the correct Google Drive URL. But after sometime, it correctly displays</li>
   </ul>
-<<<<<<< HEAD
 
-=======
->>>>>>> fb57ce3139ae54caedd3e1bdfe5673ea3dab61a3
